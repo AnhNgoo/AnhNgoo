@@ -59,9 +59,10 @@ I'm a Game Development student at FPT Polytechnic Da Nang, passionate about buil
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=AnhNgoo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="AnhNgoo's GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnhNgoo&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AnhNgoo&theme=tokyonight" alt="AnhNgoo's GitHub Stats" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AnhNgoo&theme=tokyonight" alt="Top Languages by Repository" />
 </div>
+
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnhNgoo&theme=tokyonight" alt="GitHub Streak" />

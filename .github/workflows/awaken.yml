@@ -1,0 +1,29 @@
+name: Git Profile Awaken
+
+on:
+  schedule:
+    - cron: "10 17 * * *" # 00:10 Asia/Ho_Chi_Minh
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - awaken.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: git-profile-awaken
+  cancel-in-progress: true
+
+jobs:
+  awaken:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Generate Hunter status and ARISE activity
+        uses: billtruong003/git-profile-awaken@16c85e4466858447b19ef26e8c9e899a28459a1e

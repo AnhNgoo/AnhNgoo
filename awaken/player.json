@@ -2,7 +2,7 @@
   "login": "AnhNgoo",
   "level": 10,
   "overall": "S",
-  "overallPercentile": 0.9537729606263042,
+  "overallPercentile": 0.9547236292796119,
   "layout": "custom",
   "class": {
     "name": "Holy Knight",
@@ -19,9 +19,9 @@
     },
     {
       "code": "AGI",
-      "value": 70,
+      "value": 75,
       "rank": "S",
-      "percentile": 0.9751137988748277
+      "percentile": 0.977527778168678
     },
     {
       "code": "INT",
@@ -48,7 +48,15 @@
       "percentile": 0.7154979269401185
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "kind": "achievement",
+      "subject": "collector",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-19T23:30:38.579Z"
+    }
+  ],
   "achievements": [
     {
       "id": "pull-shark",
@@ -88,7 +96,7 @@
     {
       "id": "weekend-warrior",
       "tier": 1,
-      "value": 24
+      "value": 23
     },
     {
       "id": "gate-opener",
@@ -103,7 +111,7 @@
     {
       "id": "flawless",
       "tier": 0,
-      "value": 67
+      "value": 63
     },
     {
       "id": "healer",
@@ -148,17 +156,17 @@
     {
       "id": "daily-grinder",
       "tier": 0,
-      "value": 0
+      "value": 1
     },
     {
       "id": "perfect-week",
       "tier": 0,
-      "value": 0
+      "value": 1
     },
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 2
+      "value": 5
     },
     {
       "id": "boss-slayer",
@@ -172,28 +180,35 @@
     },
     {
       "id": "collector",
-      "tier": 0,
-      "value": 2
+      "tier": 1,
+      "value": 4
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-19",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-11-18",
         "cleared": 2,
         "total": 3
       }
     ],
-    "perfectDays": 0,
-    "run": 0,
-    "bestRun": 0,
-    "questsDone": 2,
+    "perfectDays": 1,
+    "run": 1,
+    "bestRun": 1,
+    "questsDone": 5,
     "bosses": [],
     "escapes": 1,
     "kinds": [
       "contribute",
-      "three"
+      "three",
+      "issue",
+      "commit"
     ]
   },
-  "syncedAt": "2026-11-19T07:11:07.455Z"
+  "syncedAt": "2026-11-19T23:30:38.579Z"
 }

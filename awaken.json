@@ -1,0 +1,31 @@
+{
+  "username": "AnhNgoo",
+  "layout": "custom",
+  "widgets": [
+    "hunter",
+    "activity",
+    "combat"
+  ],
+  "theme": "solo_leveling",
+  "title": "auto",
+  "activity": "arise",
+  "icons": "brand",
+  "motion": "calm",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "hours": true,
+  "arsenal": [
+    "C#",
+    ".NET",
+    "Rust",
+    "Kotlin",
+    "Unity",
+    "Flutter",
+    "PostgreSQL",
+    "Git",
+    "Docker"
+  ],
+  "spotlight": [
+    "AnhNgoo/HexaForgeTeam",
+    "AnhNgoo/AG10-RogueDefense"
+  ]
+}

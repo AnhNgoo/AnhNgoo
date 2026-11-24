@@ -2,7 +2,7 @@
   "login": "AnhNgoo",
   "level": 10,
   "overall": "S",
-  "overallPercentile": 0.9547236292796119,
+  "overallPercentile": 0.9558447709777113,
   "layout": "custom",
   "class": {
     "name": "Holy Knight",
@@ -19,15 +19,15 @@
     },
     {
       "code": "AGI",
-      "value": 75,
+      "value": 77,
       "rank": "S",
-      "percentile": 0.977527778168678
+      "percentile": 0.9783988667143193
     },
     {
       "code": "INT",
-      "value": 3,
+      "value": 5,
       "rank": "B",
-      "percentile": 0.8278787901671979
+      "percentile": 0.857700955912591
     },
     {
       "code": "VIT",
@@ -101,7 +101,7 @@
     {
       "id": "gate-opener",
       "tier": 1,
-      "value": 13
+      "value": 14
     },
     {
       "id": "raider",
@@ -111,7 +111,7 @@
     {
       "id": "flawless",
       "tier": 0,
-      "value": 63
+      "value": 61
     },
     {
       "id": "healer",
@@ -151,7 +151,7 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 77
+      "value": 78
     },
     {
       "id": "daily-grinder",
@@ -166,7 +166,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 8
+      "value": 10
     },
     {
       "id": "boss-slayer",
@@ -176,7 +176,7 @@
     {
       "id": "escape-artist",
       "tier": 0,
-      "value": 1
+      "value": 2
     },
     {
       "id": "collector",
@@ -186,6 +186,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-23",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-11-22",
         "cleared": 0,
@@ -215,9 +220,9 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 2,
-    "questsDone": 8,
+    "questsDone": 10,
     "bosses": [],
-    "escapes": 1,
+    "escapes": 2,
     "kinds": [
       "contribute",
       "three",
@@ -226,5 +231,5 @@
       "streak"
     ]
   },
-  "syncedAt": "2026-11-22T22:26:00.088Z"
+  "syncedAt": "2026-11-24T03:17:17.633Z"
 }

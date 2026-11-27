@@ -1,8 +1,8 @@
 {
   "login": "AnhNgoo",
-  "level": 10,
+  "level": 11,
   "overall": "S",
-  "overallPercentile": 0.9558447709777113,
+  "overallPercentile": 0.9567251924956934,
   "layout": "custom",
   "class": {
     "name": "Holy Knight",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 288,
+      "value": 289,
       "rank": "A",
-      "percentile": 0.8724724312950685
+      "percentile": 0.8729392027036629
     },
     {
       "code": "AGI",
@@ -31,9 +31,9 @@
     },
     {
       "code": "VIT",
-      "value": 10,
-      "rank": "A",
-      "percentile": 0.9348315269247548
+      "value": 11,
+      "rank": "S",
+      "percentile": 0.9499142157630279
     },
     {
       "code": "LUK",
@@ -50,18 +50,32 @@
   ],
   "events": [
     {
+      "kind": "level",
+      "subject": "Level",
+      "from": "10",
+      "to": "11",
+      "at": "2026-11-27T00:59:24.099Z"
+    },
+    {
+      "kind": "stat",
+      "subject": "VIT",
+      "from": "A",
+      "to": "S",
+      "at": "2026-11-27T00:59:24.099Z"
+    },
+    {
       "kind": "achievement",
       "subject": "collector",
-      "from": "0",
-      "to": "1",
-      "at": "2026-11-19T23:30:38.579Z"
+      "from": "1",
+      "to": "2",
+      "at": "2026-11-27T00:59:24.099Z"
     }
   ],
   "achievements": [
     {
       "id": "pull-shark",
       "tier": 2,
-      "value": 47
+      "value": 48
     },
     {
       "id": "quickdraw",
@@ -76,7 +90,7 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 288
+      "value": 289
     },
     {
       "id": "unbroken",
@@ -106,12 +120,12 @@
     {
       "id": "raider",
       "tier": 2,
-      "value": 10
+      "value": 11
     },
     {
       "id": "flawless",
       "tier": 0,
-      "value": 61
+      "value": 62
     },
     {
       "id": "healer",
@@ -166,7 +180,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 13
+      "value": 14
     },
     {
       "id": "boss-slayer",
@@ -180,12 +194,17 @@
     },
     {
       "id": "collector",
-      "tier": 1,
-      "value": 6
+      "tier": 2,
+      "value": 7
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-26",
+        "cleared": 1,
+        "total": 3
+      },
       {
         "date": "2026-11-25",
         "cleared": 0,
@@ -230,7 +249,7 @@
     "perfectDays": 3,
     "run": 0,
     "bestRun": 2,
-    "questsDone": 13,
+    "questsDone": 14,
     "bosses": [],
     "escapes": 2,
     "kinds": [
@@ -239,8 +258,9 @@
       "issue",
       "commit",
       "streak",
-      "average"
+      "average",
+      "mp"
     ]
   },
-  "syncedAt": "2026-11-26T00:57:25.500Z"
+  "syncedAt": "2026-11-27T00:59:24.099Z"
 }

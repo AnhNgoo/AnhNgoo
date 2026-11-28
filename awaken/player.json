@@ -2,7 +2,7 @@
   "login": "AnhNgoo",
   "level": 11,
   "overall": "S",
-  "overallPercentile": 0.9567251924956934,
+  "overallPercentile": 0.9576057092037057,
   "layout": "custom",
   "class": {
     "name": "Holy Knight",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 289,
+      "value": 321,
       "rank": "A",
-      "percentile": 0.8729392027036629
+      "percentile": 0.886527454043051
     },
     {
       "code": "AGI",
@@ -50,6 +50,13 @@
   ],
   "events": [
     {
+      "kind": "achievement",
+      "subject": "escape-artist",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-28T00:29:19.114Z"
+    },
+    {
       "kind": "level",
       "subject": "Level",
       "from": "10",
@@ -75,7 +82,7 @@
     {
       "id": "pull-shark",
       "tier": 2,
-      "value": 48
+      "value": 52
     },
     {
       "id": "quickdraw",
@@ -90,7 +97,7 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 289
+      "value": 321
     },
     {
       "id": "unbroken",
@@ -99,8 +106,8 @@
     },
     {
       "id": "night-owl",
-      "tier": 1,
-      "value": 22
+      "tier": 0,
+      "value": 19
     },
     {
       "id": "early-bird",
@@ -120,12 +127,12 @@
     {
       "id": "raider",
       "tier": 2,
-      "value": 11
+      "value": 15
     },
     {
       "id": "flawless",
       "tier": 0,
-      "value": 62
+      "value": 68
     },
     {
       "id": "healer",
@@ -165,7 +172,7 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 78
+      "value": 80
     },
     {
       "id": "daily-grinder",
@@ -180,7 +187,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 14
+      "value": 15
     },
     {
       "id": "boss-slayer",
@@ -189,8 +196,8 @@
     },
     {
       "id": "escape-artist",
-      "tier": 0,
-      "value": 2
+      "tier": 1,
+      "value": 3
     },
     {
       "id": "collector",
@@ -200,6 +207,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-27",
+        "cleared": 1,
+        "total": 3
+      },
       {
         "date": "2026-11-26",
         "cleared": 1,
@@ -249,9 +261,9 @@
     "perfectDays": 3,
     "run": 0,
     "bestRun": 2,
-    "questsDone": 14,
+    "questsDone": 15,
     "bosses": [],
-    "escapes": 2,
+    "escapes": 3,
     "kinds": [
       "contribute",
       "three",
@@ -262,5 +274,5 @@
       "mp"
     ]
   },
-  "syncedAt": "2026-11-27T00:59:24.099Z"
+  "syncedAt": "2026-11-28T00:29:19.114Z"
 }
